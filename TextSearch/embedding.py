@@ -4,7 +4,7 @@ from pymilvus import model
 
 ef = model.DefaultEmbeddingFunction()
 
-with open("D:/Download/dqs_address.json","r", encoding="utf-8") as file:
+with open("D:/Download/dqs_address.json", "r", encoding="utf-8") as file:
     data = json.load(file)
 
 # docs = [
@@ -26,5 +26,5 @@ embeddings_list = []
 for embedding in embeddings:
     embeddings_list.append(embedding.tolist())
 
-with open("D:/Download/dqs_address_embeddings.json","w", encoding="utf-8") as file:
+with open("D:/Download/dqs_address_embeddings.json", "w", encoding="utf-8") as file:
     json.dump(embeddings_list, file)
