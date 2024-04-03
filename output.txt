@@ -1,0 +1,431 @@
+[
+    [
+        {
+            "id": 0,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 0,
+                "entry_text": "Paoua,Central African Republic\n"
+            }
+        },
+        {
+            "id": 1,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 1,
+                "entry_text": "Paoua,Central African Republic\n"
+            }
+        },
+        {
+            "id": 21,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 21,
+                "entry_text": "Paoua,Central African Republic\n"
+            }
+        },
+        {
+            "id": 39,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 39,
+                "entry_text": "Paoua,Central African Republic\n"
+            }
+        },
+        {
+            "id": 27,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 27,
+                "entry_text": "Paoua,Central African Republic\n"
+            }
+        }
+    ]
+][
+    [
+        {
+            "id": 0,
+            "distance": 0.0,
+            "entity": {
+                "entry_text": "Paoua,Central African Republic\n",
+                "entry_id": 0
+            }
+        },
+        {
+            "id": 1,
+            "distance": 0.0,
+            "entity": {
+                "entry_text": "Paoua,Central African Republic\n",
+                "entry_id": 1
+            }
+        },
+        {
+            "id": 21,
+            "distance": 0.0,
+            "entity": {
+                "entry_text": "Paoua,Central African Republic\n",
+                "entry_id": 21
+            }
+        },
+        {
+            "id": 39,
+            "distance": 0.0,
+            "entity": {
+                "entry_text": "Paoua,Central African Republic\n",
+                "entry_id": 39
+            }
+        },
+        {
+            "id": 27,
+            "distance": 0.0,
+            "entity": {
+                "entry_text": "Paoua,Central African Republic\n",
+                "entry_id": 27
+            }
+        }
+    ]
+][
+    [
+        {
+            "id": 2,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 2,
+                "entry_text": "Bobangui,Central African Republic\n"
+            }
+        },
+        {
+            "id": 77757,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 77757,
+                "entry_text": "Bobangui,Central African Republic\n"
+            }
+        },
+        {
+            "id": 34,
+            "distance": 0.4699011445045471,
+            "entity": {
+                "entry_id": 34,
+                "entry_text": "Baboua,Central African Republic\n"
+            }
+        },
+        {
+            "id": 20,
+            "distance": 0.4699011445045471,
+            "entity": {
+                "entry_id": 20,
+                "entry_text": "Baboua,Central African Republic\n"
+            }
+        },
+        {
+            "id": 4,
+            "distance": 0.485554575920105,
+            "entity": {
+                "entry_id": 4,
+                "entry_text": "Bangui,Central African Republic\n"
+            }
+        }
+    ]
+][
+    [
+        {
+            "id": 17893,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 17893,
+                "entry_text": "Sarh,Chad\n"
+            }
+        },
+        {
+            "id": 3,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 3,
+                "entry_text": "Sarh,Chad\n"
+            }
+        },
+        {
+            "id": 17957,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 17957,
+                "entry_text": "Sarh,Chad\n"
+            }
+        },
+        {
+            "id": 17927,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 17927,
+                "entry_text": "Sarh,Chad\n"
+            }
+        },
+        {
+            "id": 17994,
+            "distance": 4.55306744997358e-13,
+            "entity": {
+                "entry_id": 17994,
+                "entry_text": "Sarh,Chad\n"
+            }
+        }
+    ]
+][
+    [
+        {
+            "id": 4,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 4,
+                "entry_text": "Bangui,Central African Republic\n"
+            }
+        },
+        {
+            "id": 102863,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 102863,
+                "entry_text": "Bangui,Central African Republic\n"
+            }
+        },
+        {
+            "id": 105553,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 105553,
+                "entry_text": "Bangui,Central African Republic\n"
+            }
+        },
+        {
+            "id": 141218,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 141218,
+                "entry_text": "Bangui,Central African Republic\n"
+            }
+        },
+        {
+            "id": 152602,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 152602,
+                "entry_text": "Bangui,Central African Republic\n"
+            }
+        }
+    ]
+][
+    [
+        {
+            "id": 5,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 5,
+                "entry_text": "Brazzaville, Plateaux,Congo Republic\n"
+            }
+        },
+        {
+            "id": 34649,
+            "distance": 0.13986578583717346,
+            "entity": {
+                "entry_id": 34649,
+                "entry_text": "Brazzaville, Brazzaville,Congo Republic\n"
+            }
+        },
+        {
+            "id": 164480,
+            "distance": 0.13986578583717346,
+            "entity": {
+                "entry_id": 164480,
+                "entry_text": "Brazzaville, Brazzaville,Congo Republic\n"
+            }
+        },
+        {
+            "id": 351485,
+            "distance": 0.13986578583717346,
+            "entity": {
+                "entry_id": 351485,
+                "entry_text": "Brazzaville, Brazzaville,Congo Republic\n"
+            }
+        },
+        {
+            "id": 86394,
+            "distance": 0.15047883987426758,
+            "entity": {
+                "entry_id": 86394,
+                "entry_text": "Brazzaville,Congo Republic\n"
+            }
+        }
+    ]
+][
+    [
+        {
+            "id": 105931,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 105931,
+                "entry_text": "France\n"
+            }
+        },
+        {
+            "id": 109907,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 109907,
+                "entry_text": "France\n"
+            }
+        },
+        {
+            "id": 124848,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 124848,
+                "entry_text": "France\n"
+            }
+        },
+        {
+            "id": 125895,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 125895,
+                "entry_text": "France\n"
+            }
+        },
+        {
+            "id": 77760,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 77760,
+                "entry_text": "France\n"
+            }
+        }
+    ]
+][
+    [
+        {
+            "id": 174689,
+            "distance": 0.0,
+            "entity": {
+                "entry_text": "Saigon,Vietnam\n",
+                "entry_id": 174689
+            }
+        },
+        {
+            "id": 7,
+            "distance": 0.0,
+            "entity": {
+                "entry_text": "Saigon,Vietnam\n",
+                "entry_id": 7
+            }
+        },
+        {
+            "id": 151568,
+            "distance": 0.0,
+            "entity": {
+                "entry_text": "Saigon,Vietnam\n",
+                "entry_id": 151568
+            }
+        },
+        {
+            "id": 258652,
+            "distance": 0.0,
+            "entity": {
+                "entry_text": "Saigon,Vietnam\n",
+                "entry_id": 258652
+            }
+        },
+        {
+            "id": 438711,
+            "distance": 0.0,
+            "entity": {
+                "entry_text": "Saigon, Vietnam\n",
+                "entry_id": 438711
+            }
+        }
+    ]
+][
+    [
+        {
+            "id": 87443,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 87443,
+                "entry_text": "Brazzaville,Congo Republic\n"
+            }
+        },
+        {
+            "id": 86394,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 86394,
+                "entry_text": "Brazzaville,Congo Republic\n"
+            }
+        },
+        {
+            "id": 112318,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 112318,
+                "entry_text": "Brazzaville,Congo Republic\n"
+            }
+        },
+        {
+            "id": 113730,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 113730,
+                "entry_text": "Brazzaville,Congo Republic\n"
+            }
+        },
+        {
+            "id": 75788,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 75788,
+                "entry_text": "Brazzaville,Congo Republic\n"
+            }
+        }
+    ]
+][
+    [
+        {
+            "id": 87443,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 87443,
+                "entry_text": "Brazzaville,Congo Republic\n"
+            }
+        },
+        {
+            "id": 86394,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 86394,
+                "entry_text": "Brazzaville,Congo Republic\n"
+            }
+        },
+        {
+            "id": 112318,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 112318,
+                "entry_text": "Brazzaville,Congo Republic\n"
+            }
+        },
+        {
+            "id": 113730,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 113730,
+                "entry_text": "Brazzaville,Congo Republic\n"
+            }
+        },
+        {
+            "id": 75788,
+            "distance": 0.0,
+            "entity": {
+                "entry_id": 75788,
+                "entry_text": "Brazzaville,Congo Republic\n"
+            }
+        }
+    ]
+]
