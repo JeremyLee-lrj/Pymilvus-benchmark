@@ -61,7 +61,7 @@
       <recent name="C:\Users\bangsun\Desktop\pymilvus" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.insertData">
+  <component name="RunManager" selected="Python.search">
     <configuration name="embedding" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Pymilvus-benchmark" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,8 +196,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.insertData" />
         <item itemvalue="Python.search" />
+        <item itemvalue="Python.insertData" />
         <item itemvalue="Python.embedding" />
         <item itemvalue="Python.readData" />
         <item itemvalue="Python.generate_data" />
@@ -269,7 +269,7 @@
       <workItem from="1711967199518" duration="735000" />
       <workItem from="1711968202564" duration="351000" />
       <workItem from="1711970495928" duration="16491000" />
-      <workItem from="1712647640012" duration="1132000" />
+      <workItem from="1712647640012" duration="3322000" />
     </task>
     <servers />
   </component>
@@ -289,7 +289,7 @@
     <SUITE FILE_PATH="coverage/upsert_py$upsert.coverage" NAME="upsert Coverage Results" MODIFIED="1699713248640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/upsert_py$HybridSearch.coverage" NAME="HybridSearch Coverage Results" MODIFIED="1700480049033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/upsert_py$calculate_query_ground_truth.coverage" NAME="calculate_query_ground_truth Coverage Results" MODIFIED="1700311906805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/calculate_ground_truth" />
-    <SUITE FILE_PATH="coverage/Pymilvus_benchmark$search.coverage" NAME="search Coverage Results" MODIFIED="1711967143454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TextSearch" />
+    <SUITE FILE_PATH="coverage/Pymilvus_benchmark$search.coverage" NAME="search Coverage Results" MODIFIED="1712657799677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TextSearch" />
     <SUITE FILE_PATH="coverage/insert_py$search.coverage" NAME="search Coverage Results" MODIFIED="1699451552691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/upsert_py$search.coverage" NAME="search Coverage Results" MODIFIED="1700903618462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pymilvus_benchmark$embedding.coverage" NAME="embedding Coverage Results" MODIFIED="1711632024384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TextSearch" />
