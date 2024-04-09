@@ -4,7 +4,7 @@ import time
 from pymilvus import MilvusClient
 
 client = MilvusClient(
-    uri="http://localhost:19530"
+    uri="http://10.100.2.241:19530"
 )
 
 # load text and embeddings
