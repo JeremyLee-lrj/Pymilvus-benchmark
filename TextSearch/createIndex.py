@@ -1,8 +1,12 @@
 import time
 
-from pymilvus import connections, Collection
+from pymilvus import connections, Collection, MilvusClient
 
-conn = connections.connect(host="10.100.2.241", port=19530)
+client = MilvusClient(
+    uri="http://10.100.2.241:19530",
+    token="root:Milvus",
+    db_name="default"
+)
 collection = Collection("TextData")
 
 tic = time.perf_counter()

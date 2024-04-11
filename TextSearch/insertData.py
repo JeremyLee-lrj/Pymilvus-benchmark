@@ -15,8 +15,11 @@ import time
 #     uri="http://10.100.2.241:19530"
 # )
 # 连接 Milvus
-conn = connections.connect(host="10.100.2.241", port=19530)
-
+client = MilvusClient(
+    uri="http://10.100.2.241:19530",
+    token="root:Milvus",
+    db_name="default"
+)
 # 指定每个字段的 Schema
 entry_id = FieldSchema("entry_id", DataType.INT64, is_primary=True)
 entry_text = FieldSchema("entry_text", DataType.VARCHAR, max_length=1024)
