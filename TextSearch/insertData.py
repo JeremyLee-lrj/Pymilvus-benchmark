@@ -21,22 +21,21 @@ client = MilvusClient(
     db_name="default"
 )
 # 指定每个字段的 Schema
-entry_id = FieldSchema("entry_id", DataType.INT64, is_primary=True)
-entry_text = FieldSchema("entry_text", DataType.VARCHAR, max_length=1024)
-entry_vector = FieldSchema("entry_vector", DataType.FLOAT_VECTOR, dim=384)
+entry_id = FieldSchema(name="entry_id", dtype=DataType.INT64, is_primary=True)
+entry_text = FieldSchema(name="entry_text", dtype=DataType.VARCHAR, max_length=1024)
+entry_vector = FieldSchema(name="entry_vector", dtype=DataType.FLOAT_VECTOR, dim=384)
 
 # 指定集合的 Schema
-schema = CollectionSchema([entry_id, entry_text, entry_vector])
+schema = CollectionSchema(fields=[entry_id, entry_text, entry_vector])
 
 # 创建空集合
-utility.drop_collection("TextData")
-collection = Collection("TextData", schema)
+client.drop_collection(collection_name="TextData")
+client.create_collection(collection_name="TextData", schema=schema)
 
-
-with open("/data/jeremy/dataset/TextSearch/dqs_address.json", "r", encoding="utf-8") as file:
+with open("/home/bangsun-f/Jeremy/dataset/TextSearch/dqs_address.json", "r", encoding="utf-8") as file:
     textData = json.load(file)
 
-with open("/data/jeremy/dataset/TextSearch/dqs_address_embeddings.json", "r", encoding="utf-8") as file:
+with open("/home/bangsun-f/Jeremy/dataset/TextSearch/dqs_address_embeddings.json", "r", encoding="utf-8") as file:
     textVec = json.load(file)
 
 num = len(textData)
@@ -46,16 +45,16 @@ i, step = 0, 2100
 
 while i < num:
     # 将数据插入集合
-    collection.insert(
-        [
-            data_id[i: i + step],
-            textData[i: i + step],
-            textVec[i: i + step],
-        ]
+    cur_data = []
+    ptr = i
+    while (ptr < num) and ptr < i + step:
+        cur_data.append({"entry_id": data_id[ptr], "entry_text": textData[ptr], "entry_vector": textVec[ptr]})
+        ptr += 1
+    client.insert(
+        collection_name="TextData",
+        data=cur_data
     )
     i += step
     print(i)
-# 确保所有数据被密封和索引
-collection.flush()
 toc = time.perf_counter()
 print(f"inserted {num} entities in {toc - tic:0.4f} seconds")
