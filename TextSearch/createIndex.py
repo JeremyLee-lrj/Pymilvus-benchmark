@@ -2,8 +2,8 @@ import time
 
 from pymilvus import connections, Collection
 
-conn = connections.connect(host="localhost", port=19530)
-collection = Collection("test")
+conn = connections.connect(host="10.100.2.241", port=19530)
+collection = Collection("TextData")
 
 tic = time.perf_counter()
 # 创建向量索引

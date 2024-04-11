@@ -15,7 +15,7 @@ import time
 #     uri="http://10.100.2.241:19530"
 # )
 # 连接 Milvus
-conn = connections.connect(host="localhost", port=19530)
+conn = connections.connect(host="10.100.2.241", port=19530)
 
 # 指定每个字段的 Schema
 entry_id = FieldSchema("entry_id", DataType.INT64, is_primary=True)
@@ -26,8 +26,8 @@ entry_vector = FieldSchema("entry_vector", DataType.FLOAT_VECTOR, dim=384)
 schema = CollectionSchema([entry_id, entry_text, entry_vector])
 
 # 创建空集合
-utility.drop_collection("test")
-collection = Collection("test", schema)
+utility.drop_collection("TextData")
+collection = Collection("TextData", schema)
 
 
 with open("/data/jeremy/dataset/TextSearch/dqs_address.json", "r", encoding="utf-8") as file:
