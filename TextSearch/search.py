@@ -15,7 +15,7 @@ with open("/home/bangsun-f/Jeremy/dataset/TextSearch/dqs_address.json", "r", enc
 
 with open("/home/bangsun-f/Jeremy/dataset/TextSearch/dqs_address_embeddings.json", "r", encoding="utf-8") as file:
     textVec = json.load(file)
-
+client.load_collection(collection_name="TextData")
 num = 10
 tic = time.perf_counter()
 
