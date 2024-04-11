@@ -9,14 +9,11 @@ client = MilvusClient(
     db_name="default"
 )
 
-collection = Collection("TextData")
-
-collection.load()
 # load text and embeddings
-with open("/home/bangsun-f/jeremy/dataset/TextSearch/dqs_address.json", "r", encoding="utf-8") as file:
+with open("/home/bangsun-f/Jeremy/dataset/TextSearch/dqs_address.json", "r", encoding="utf-8") as file:
     textData = json.load(file)
 
-with open("/home/bangsun-f/jeremy/dataset/TextSearch/dqs_address_embeddings.json", "r", encoding="utf-8") as file:
+with open("/home/bangsun-f/Jeremy/dataset/TextSearch/dqs_address_embeddings.json", "r", encoding="utf-8") as file:
     textVec = json.load(file)
 
 num = 10
@@ -26,7 +23,7 @@ for i in range(num):
     print("Query textData is ", textData[i])
 
     res = client.search(
-        collection_name="test",  # Replace with the actual name of your collection
+        collection_name="TextData",  # Replace with the actual name of your collection
         # Replace with your query entry_idctorentry_text
         data=[textVec[i]],
         anns_field="entry_vector",
