@@ -27,7 +27,7 @@ def read_fbin(filename, start_idx=0, chunk_size=None):
         # print(nvecs, dim)
         nvecs = (nvecs - start_idx) if chunk_size is None else chunk_size
         arr = np.fromfile(f, count=nvecs * dim, dtype=np.uint8,
-                          offset=start_idx * 4 * dim)
+                          offset=start_idx * 1 * dim)
     return arr.reshape(nvecs, dim)
 
 # client = MilvusClient(

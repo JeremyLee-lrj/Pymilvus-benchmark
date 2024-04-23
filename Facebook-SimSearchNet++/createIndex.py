@@ -16,9 +16,10 @@ index_params.add_index(
     metric_type="L2",
     index_type="IVF_FLAT",
     params={"nlist": 1024},
+    index_name="ivf_flat_index",
 )
 client.create_index(
-    collection_name="TextData",
+    collection_name="Facebook_SimSearchNet",
     index_params=index_params
 )
 toc = time.perf_counter()
