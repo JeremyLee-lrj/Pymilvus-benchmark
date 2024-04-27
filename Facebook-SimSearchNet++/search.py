@@ -10,7 +10,7 @@ client = MilvusClient(
     db_name="default"
 )
 
-client.load_collection(collection_name="TextData")
+client.load_collection(collection_name="Facebook_SimSearchNet")
 num = 10
 data = []
 for i in range(num):
