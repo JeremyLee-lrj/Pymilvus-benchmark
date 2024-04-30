@@ -10,7 +10,7 @@ client = MilvusClient(
     db_name="default"
 )
 
-client.load_collection(collection_name="Facebook_SimSearchNet")
+client.load_collection(collection_name="Facebook_SimSearchNet", timeout=1000000)
 num = 10
 data = []
 for i in range(num):
