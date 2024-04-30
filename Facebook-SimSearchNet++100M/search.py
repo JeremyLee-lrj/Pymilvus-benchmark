@@ -15,16 +15,17 @@ client = MilvusClient(
     token="root:Milvus",
     db_name="default"
 )
-collection = Collection("Facebook_SimSearchNet100M")  # Replace with your collection name
-collection.release()
+collection = Collection("Facebook_SimSearchNet100M")
+# collection.release()
 collection.set_properties({'mmap.enabled': True})
 
 collection.alter_index(
-    index_name="ivf_flat_index",  # Replace with your vector index name
-    extra_params={"mmap.enabled": True}  # Enable memory mapping for index
+    index_name="ivf_flat_index",
+    extra_params={"mmap.enabled": True}
 )
-
+print("load start")
 client.load_collection(collection_name="Facebook_SimSearchNet100M", timeout=1000000)
+print("load finish")
 num = 10
 data = []
 for i in range(num):
@@ -36,8 +37,7 @@ for i in range(num):
     print("Query textData is ", data[i])
 
     res = client.search(
-        collection_name="Facebook_SimSearchNet100M",  # Replace with the actual name of your collection
-        # Replace with your query entry_idctorentry_text
+        collection_name="Facebook_SimSearchNet100M",
         data=[data[i]],
         anns_field="entry_vector",
         limit=5,  # Max. number of search results to return
