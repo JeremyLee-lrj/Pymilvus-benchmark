@@ -2,7 +2,13 @@ import json
 import random
 import time
 
-from pymilvus import MilvusClient, connections, Collection
+from pymilvus import MilvusClient, Collection
+from pymilvus import connections
+
+connections.connect(
+    uri="http://10.100.2.241:19530",
+    token="root:Milvus"
+)
 
 client = MilvusClient(
     uri="http://10.100.2.241:19530",
@@ -10,7 +16,7 @@ client = MilvusClient(
     db_name="default"
 )
 collection = Collection("Facebook_SimSearchNet100M")  # Replace with your collection name
-
+collection.release()
 collection.set_properties({'mmap.enabled': True})
 
 collection.alter_index(
@@ -41,7 +47,7 @@ for i in range(num):
 
     result = json.dumps(res, indent=4)
     with open("output.json", "a", encoding="utf-8") as file:
-        file.write("Query data is " + data[i] + "\n")
+        file.write("Query data is " + str(data[i]) + "\n")
         file.write(result)
 
 toc = time.perf_counter()
