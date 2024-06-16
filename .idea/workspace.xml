@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88bb4fe6-2fae-48d8-9f66-1791eaabf66b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Facebook-SimSearchNet++100M/CheckIndexSize.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook-SimSearchNet++100M/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook-SimSearchNet++100M/search.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,7 +278,9 @@
       <workItem from="1713854917832" duration="12014000" />
       <workItem from="1714198020486" duration="4609000" />
       <workItem from="1714292765942" duration="1947000" />
-      <workItem from="1714462188674" duration="3234000" />
+      <workItem from="1714462188674" duration="8267000" />
+      <workItem from="1714540281742" duration="4842000" />
+      <workItem from="1714804357041" duration="3925000" />
     </task>
     <servers />
   </component>
