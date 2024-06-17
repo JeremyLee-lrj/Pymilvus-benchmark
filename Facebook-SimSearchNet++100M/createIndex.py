@@ -1,6 +1,6 @@
 import time
 
-from pymilvus import connections, Collection, MilvusClient
+from pymilvus import MilvusClient
 
 client = MilvusClient(
     uri="http://10.100.2.241:19530",
